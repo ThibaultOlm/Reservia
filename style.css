@@ -99,3 +99,56 @@ header nav a:hover
 }
 
 /* Bouton Rechercher */
+
+/* Filtres */
+
+#Filtres
+
+{
+    display: flex;
+}
+
+#Filtres i
+
+{
+    color: #0165FC;
+    padding: 7px;
+    border-radius: 20px;
+    background: #DEECFF;
+    margin-right: 5px;
+}
+
+.fa-money-bill-wave
+
+{
+    width: 20px;
+}
+
+#Filtres a
+
+{
+    padding-right: 10px;
+}
+
+.bouton_filtre
+
+{
+    margin: 10px;
+    border: #dddfdf solid 2px ;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: bold;
+    font-size: 00.9em;
+    vertical-align: middle;
+}
+
+header h1
+
+{
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding-top: 7px;
+}
+
