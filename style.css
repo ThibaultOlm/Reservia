@@ -339,15 +339,72 @@ article
 
 /* Les plus populaires */
 
-.carte_hebergement_populaire img
+aside
 
 {
-    width: 200px;
-    height: 150px;
+    background-color: #ebe9e9;
+    padding: 30px 20px;
+    border-radius: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    flex: 30%;
 }
 
 .carte_hebergement_populaire
 
 {
+    background:white;
+    border: white 4px solid;
+    border-radius: 20px;
+    margin: 0px 10px 25px 10px;
+    overflow: hidden;
     display: flex;
+}
+
+.carte_hebergement_populaire img
+
+{
+    width: 140px;
+    height: 140px;
+}
+
+aside h1
+
+{
+    padding-left: 18px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+
+aside h2
+
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+aside h3
+
+{
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 45px;
+    margin-top: 8px;
+}
+
+#descriptif_plus_populaire p
+
+{
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.fa-chart-line
+
+{
+    padding-left: 220px;
 }
