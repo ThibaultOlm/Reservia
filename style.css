@@ -217,20 +217,74 @@ header h1
     margin-right: 10px;
 }
 
-#hebergements_6
+header p
+
+{
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+article
+
+{
+    background-color: #ebe9e9;
+    padding: 30px 20px;
+    border-radius: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    flex: 60%;
+}
+
+#Hebergement_à_Marseille h1
+
+{
+    padding-left: 18px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#Hebergement_à_Marseille h2
+
+{
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+#Hebergement_à_Marseille h3
+
+{
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+#hebergements_Marseille
 
 {
     display: flex;
     flex-wrap: wrap;
 }
 
+#hebergements_Marseille p
+
+{
+    padding: 3px 0px 6px 7px ;
+    font-size: 12px;
+}
+
+
 .carte_hebergement
 
 {
-    background: rgb(216, 212, 212);
-    border: white 2px solid;
+    background:white;
+    border: white 4px solid;
     border-radius: 20px;
-    margin: 5px;
+    margin: 10px;
     overflow: hidden;
     flex: 30%;
 }
@@ -249,7 +303,7 @@ header h1
 {
     font-size: 0.8em;
     font-weight: bold;
-    padding-left: 5px;
+    margin-left: 6px;
 }
 
 .carte_hebergement h2
@@ -264,6 +318,23 @@ header h1
 
 {
     color: #0165FC;
+}
+
+#grey
+
+{
+    color: #d9d9d9;
+}
+
+.afficher_plus
+
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 18px;
+    padding-top: 14px;
 }
 
 /* Les plus populaires */
