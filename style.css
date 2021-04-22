@@ -149,13 +149,14 @@ header nav a:hover
 
 {
     display: flex;
+    margin-bottom: 10px;
 }
 
 #Filtres i
 
 {
     color: #0165FC;
-    padding: 7px;
+    padding: 13px;
     border-radius: 20px;
     background: #DEECFF;
     margin-right: 5px;
@@ -164,7 +165,7 @@ header nav a:hover
 .fa-money-bill-wave
 
 {
-    width: 20px;
+    width: 45px;
 }
 
 #Filtres a
@@ -176,8 +177,9 @@ header nav a:hover
 .bouton_filtre
 
 {
-    margin: 10px;
+    margin: 15px;
     border: #dddfdf solid 2px ;
+    border-left: none;
     border-radius: 30px;
     text-decoration: none;
     color: #1f1f1f;
@@ -192,7 +194,7 @@ header h1
     margin-right: 10px;
     font-weight: bold;
     font-size: 0.9em;
-    padding-top: 7px;
+    padding-top: 28px;
 }
 
 /* Section Hébergement */
