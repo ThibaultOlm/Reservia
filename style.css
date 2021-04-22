@@ -14,6 +14,13 @@
 
 /* Eléments principaux de la page */
 
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body
 {
     font-family: 'Raleway', Arial, sans-serif;
@@ -22,8 +29,8 @@ body
 
 #bloc_page
 {
-    width: 900px;
-    margin: auto;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* Header */
@@ -38,8 +45,8 @@ body
 #logo_reservia_header
 
 {
-    width: 10%;
-    height: 10%;
+    width: 6%;
+    height: 6%;
     margin-top: 15px;
 }
 
@@ -47,15 +54,17 @@ header h1
 
 {
     font-size: 0.8em;
-    font-weight: bolder;
+    font-weight: extra-bold ;
+    margin-bottom: 5px;
 }
 
 header h2
 
 {
-    font-size: 0.6em;
+    font-size: 0.7em;
     font-weight: lighter;
     margin-bottom: 20px;
+    margin-left: 2px;
 }
 
 /* Navigation Header */
@@ -87,7 +96,7 @@ header nav a:hover
 
 {
     color: #0065FC;
-    border-top: 1px solid #0065FC;
+    border-top: 2px solid #0065FC;
 }
 
 #bouton_inscription
@@ -99,6 +108,40 @@ header nav a:hover
 }
 
 /* Bouton Rechercher */
+
+.fa-map-marker-alt
+
+{
+    background-color: #d8d7d7;
+    padding: 12px;
+    border-radius: 10px 0 0 10px;
+    margin-top: 3px;
+}
+
+#Rechercher
+
+{
+    border: solid #d8d7d7 1px;
+    border-right: none;
+    padding-top: 12.4px;
+    padding-bottom: 9.5px;
+    padding-left: 10px;
+    margin-left: -4px;
+    font-weight: bold;
+}
+
+#submit
+
+{
+    background-color: #0065FC;
+    border: #0065FC solid 1px;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    padding: 12.4px 12px 9.5px 12px;
+    margin-left: -3.5px;
+    font-weight: bold;
+}
+
 
 /* Filtres */
 
@@ -152,3 +195,76 @@ header h1
     padding-top: 7px;
 }
 
+/* Section Hébergement */
+
+#hebergements
+
+{
+    display: flex;
+}
+
+/* Hébergement à Marseille */
+
+#hebergements_6
+
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carte_hebergement
+
+{
+    background: rgb(216, 212, 212);
+    border: white 2px solid;
+    border-radius: 20px;
+    margin: 5px;
+    overflow: hidden;
+    flex: 30%;
+}
+
+.carte_hebergement img
+
+{
+    width: 100%;
+    height: 130px;
+    border-radius: 16px 16px 0px 0px;
+    object-fit: cover;
+}
+
+.carte_hebergement h1
+
+{
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.carte_hebergement h2
+
+{
+    font-size: 0.7em;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.fa-star
+
+{
+    color: #0165FC;
+}
+
+/* Les plus populaires */
+
+.carte_hebergement_populaire img
+
+{
+    width: 200px;
+    height: 150px;
+}
+
+.carte_hebergement_populaire
+
+{
+    display: flex;
+}
