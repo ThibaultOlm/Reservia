@@ -77,10 +77,6 @@ header nav a:hover {
   padding-right: 15px;
 }
 
-#inscription_button_smartphone {
-  display: none;
-}
-
 /* Bouton Rechercher */
 
 header form {
@@ -359,9 +355,9 @@ header p {
 .container_activite {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-column-gap: 40px;
+    column-gap: 40px;
     grid-template-rows: 30px 10px 10px 10px 30px;
-    grid-row-gap: 100px;
+    row-gap: 100px;
     margin-bottom: 100px;
 }
 
@@ -465,7 +461,6 @@ footer {
   
 #bloc_page {
   width: auto;
-  margin-right: 25px;
 }
 
 #header_nav img {
@@ -482,14 +477,19 @@ header form {
   flex-direction: column;
 }
 
-.card_activite_one, .card_activite_two, .card_activite_three, .card_activite_four {
-  padding-right: 20px;
+.sub_container_hebergements_Marseille {
+  margin-right: 0px;
+}
+
+.container_activite {
+  column-gap: 20px;
+  row-gap: 75px;
 }
 
 .footer_menu {
   width: 80%;
+  margin-left: 70px;
 }
-
 }
 
 /* Réglages Responsive Tablet 768px */
@@ -525,9 +525,14 @@ header form {
   width: 32px;
 }
 
+.card_hebergement {
+  flex: 35%;
+}
+
 .container_activite {
   grid-template-columns: auto auto;
-  grid-template-rows: 150px 150px 100px 150px 150px;
+  grid-template-rows: 130px 130px 130px 130px;
+  row-gap: 60px;
 }
 
 .card_activite_one {
@@ -538,37 +543,26 @@ header form {
 .card_activite_two {
   grid-column: 2;
   grid-row: 1/2;
-  padding-bottom: 30px;
-  padding-right: 0px;
 }
 
 .card_activite_three {
   grid-column: 2;
   grid-row: 2/3;
-  padding-top: 30px;
-  padding-right: 0px;
 }
 
 .card_activite_four {
   grid-column: 2;
-  grid-row: 3/6;
-  padding-top: 80px;
-  padding-right: 0px;
+  grid-row: 3/5;
 }
 
 .card_activite_five {
   grid-column: 1;
-  grid-row: 3/5;
-  padding-top: 80px;
-  padding-bottom: 30px;
-  padding-right: 20px;
+  grid-row: 3/4;
 }
 
 .card_activite_six {
   grid-column: 1;
-  grid-row: 5/6;
-  padding-top: 30px;
-  padding-right: 20px;
+  grid-row: 4/5;
 }
 }
 
@@ -586,34 +580,50 @@ header form {
 }
 
 header nav ul {
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  flex-wrap: wrap;  
   padding-top: 5px;
   margin-bottom: 20px;
 }
 
 header nav a {
-  font-size: 22px;
-  padding: 20px;
+  font-size: 18px;
+  padding: 10px;
 }
 
 header h1 {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 header h2 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 15px;
 }
 
-#inscription_button {
-  display: none;
+.button_inscription_flex {
+  order: 1;
+  flex: 70%;
+  text-align: right;
+  margin-bottom: 30px;
 }
 
-#button_hebergement, #buttonactivites {
-  padding: 0px;
-  justify-content: flex-end;
+.button_hebergement_flex {
+  order: 2;
+  flex: 40%;
+  margin-left: -45px;
+  text-align: left;
 }
+
+.button_activites_flex {
+  order: 3;
+  flex: 40%;
+  text-align: center;
+}
+
+header nav a {
+  padding: 5px;
+}
+
+
 
 .filters {
   flex-wrap: wrap;
@@ -621,8 +631,8 @@ header h2 {
 }
 
 .filters a {
-  font-size: 20px;
-  margin-right: 20px;
+  font-size: 16px;
+  margin-right: 24px;
 }
 
 .filters h1 {
@@ -636,15 +646,124 @@ header h2 {
 }
 
 .fa-money-bill-wave {
-  width: 50px;
+  width: 40px;
 }
 
 .fa-child {
   width: 36px;
 }
 
-.card_hebergement {
-  flex: 50%;
+header p {
+  font-size: 16px;
 }
 
+.container_hebergements {
+  flex-direction: column-reverse;
+}
+
+.sub_container_populaires {
+  padding: 35px 10px 20px 10px;
+  border-radius: 0px;
+  flex: 100%;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.sub_container_populaires h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 8px;
+}
+
+.fa-chart-line {
+  right: 25px;
+}
+
+.sub_container_hebergements_Marseille {
+  background-color: initial;
+  margin-right: 0px;
+  padding: 0px;
+  flex: 100%;
+}
+
+.sub_container_hebergements_Marseille h1 {
+  padding-left: 0px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card_hebergement {
+  flex: 100%;
+  margin: 10px 0px;
+}
+
+.button_afficher_plus {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.activites_marseille h1 {
+  font-size: 20px;
+  margin-left: -3px;
+}
+
+.container_activite {
+  grid-template-columns: auto;
+  grid-template-rows: 140px 140px 140px 140px 140px 140px;
+  margin-bottom: 85px;
+}
+
+.card_activite_one {
+  grid-column: 1;
+  grid-row: 1/2;
+}
+
+.card_activite_two {
+  grid-column: 1;
+  grid-row: 2/3;
+}
+
+.card_activite_three {
+  grid-column: 1;
+  grid-row: 3/4;
+}
+
+.card_activite_four {
+  grid-column: 1;
+  grid-row: 4/5;
+}
+
+.card_activite_five {
+  grid-column: 1;
+  grid-row: 5/6;
+}
+
+.card_activite_six {
+  grid-column: 1;
+  grid-row: 6/7;
+}
+
+footer {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.footer_menu {
+  margin-left: 30px;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.footer_menu h1 {
+  font-size: 18px;
+}
+
+.footer_menu ul {
+  line-height: 2;
+}
+
+.footer_menu a {
+  font-size: 14px;
+  font-weight: 400;
+}
 }
