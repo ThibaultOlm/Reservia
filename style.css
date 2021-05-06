@@ -177,7 +177,7 @@ header form {
 
 header p {
   font-size: 14px;
-  font-weight: semibold;
+  font-weight: bolder;
   margin-bottom: 30px;
 }
 
@@ -258,10 +258,6 @@ header p {
 
 .fa-star {
   color: #0165fc;
-}
-
-#grey {
-  color: #d9d9d9;
 }
 
 .button_afficher_plus {
@@ -655,16 +651,13 @@ header h2 {
   padding-bottom: 13.5px;
   padding-left: 14px;
   font-size: 16px;
+  padding-right: 10px;
+  margin-right: -7px;
 }
 
 form a {
   text-decoration: none;
   font-size: 14px;
-}
-
-#search_button {
-  padding-right: 40px;
-  margin-right: -7px;
 }
 
 #submit_location {
@@ -811,5 +804,43 @@ footer {
 .footer_menu a {
   font-size: 14px;
   font-weight: 400;
+}
+}
+
+/* Réglages Responsive Smartphone 320px */
+
+@media all and (max-width: 320px) {
+#bloc_page {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+header nav a {
+  font-size: 15px;
+}
+.button_activites_flex {
+  flex: 10%;
+}
+
+.button_hebergement_flex {
+  flex: 10%;
+}
+
+.button_inscription_flex {
+  margin-top: -36px;
+}
+
+#search_button {
+  padding-left: 6px;
+  padding-right: 2px;
+  margin-right: -25px;
+}
+
+.fa-search {
+  font-size: 12px;
 }
 }
