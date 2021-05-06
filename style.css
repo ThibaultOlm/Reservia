@@ -90,7 +90,7 @@ header form {
   margin-top: 3px;
 }
 
-.fa-search {
+.icone_search {
   display: none;
 }
 
@@ -635,6 +635,10 @@ header h2 {
 .fa-map-marker-alt {
   font-size: 16px;
   padding: 16px;
+}
+
+.icone_search {
+  display: initial;
 }
 
 .fa-search {
