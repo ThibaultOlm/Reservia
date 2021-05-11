@@ -577,6 +577,7 @@ header form {
 }
 
 #header_nav {
+  margin-right: -20px;
   flex-direction: column;
   margin-left: 0px;
 }
@@ -607,29 +608,34 @@ header h2 {
   order: 1;
   flex: 100%;
   text-align: right;
-  margin-top: -50px;
+  margin-top: -44px;
   margin-bottom: -20px;
+  margin-right: 20px;
 }
 
 .button_hebergement_flex {
   order: 2;
-  flex: 40%;
+  flex: 50%;
   text-align: center;
+  margin-left: -20px;
 }
 
-.button_hebergement_flex a, .button_activites_flex a {
+.button_hebergement_flex, .button_activites_flex {
   padding-bottom: 30px;
   border-bottom: 3px solid #e9e8e8;
 }
 
-.button_hebergement_flex a:hover, .button_activites_flex a:hover {
-  border-top: none;
+.button_hebergement_flex:hover, .button_activites_flex:hover {
   border-bottom: 3px solid #0065fc;
+}
+
+.button_hebergement_flex:hover a, .button_activites_flex:hover a {
+  border-top: none;
 }
 
 .button_activites_flex {
   order: 3;
-  flex: 40%;
+  flex: 50%;
   text-align: center;
 }
 
@@ -827,16 +833,9 @@ header h1 {
 header nav a {
   font-size: 15px;
 }
-.button_activites_flex {
-  flex: 10%;
-}
-
-.button_hebergement_flex {
-  flex: 10%;
-}
 
 .button_inscription_flex {
-  margin-top: -36px;
+  margin-top: -38px;
 }
 
 #search_button {
