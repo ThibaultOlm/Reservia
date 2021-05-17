@@ -197,7 +197,7 @@ header p {
   flex: 60%;
 }
 
-.sub_container_hebergements_Marseille h3 {
+.sub_container_hebergements_Marseille h2 {
   padding-left: 18px;
   font-weight: bold;
   font-size: 18px;
@@ -271,7 +271,7 @@ header p {
 
 /* Les plus populaires */
 
-.sub_container_populaires h3 {
+.sub_container_populaires h2 {
     padding-left: 18px;
     font-weight: bold;
     font-size: 18px;
@@ -719,7 +719,7 @@ header p {
   margin-right: -20px;
 }
 
-.sub_container_populaires h3 {
+.sub_container_populaires h2 {
   font-size: 20px;
   margin-bottom: 30px;
   padding-left: 8px;
@@ -736,7 +736,7 @@ header p {
   flex: 100%;
 }
 
-.sub_container_hebergements_Marseille h3 {
+.sub_container_hebergements_Marseille h2 {
   padding-left: 0px;
   font-size: 20px;
   margin-bottom: 15px;
